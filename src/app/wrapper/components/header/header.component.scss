@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 
   &-left,
   &-right {
@@ -16,6 +16,7 @@
 
     &_heading {
       font-size: 20px;
+      font-weight: bold;
       line-height: 24px;
       margin: 0;
       text-transform: uppercase;
