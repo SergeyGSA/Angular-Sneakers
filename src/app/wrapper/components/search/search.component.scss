@@ -1,0 +1,22 @@
+.form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-form {
+  width: 200px;
+  margin-right: 50px;
+}
+
+.form-field {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+mat-icon {
+  position: absolute;
+  top: -13px;
+  right: -175px;
+  opacity: 0.5;
+}
