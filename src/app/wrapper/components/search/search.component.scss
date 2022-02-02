@@ -1,6 +1,7 @@
 .form-wrapper {
   display: flex;
   justify-content: flex-end;
+  width: 250px;
 }
 
 .search-form {
@@ -9,8 +10,6 @@
 }
 
 .form-field {
-  display: flex;
-  justify-content: flex-end;
   position: relative;
 }
 

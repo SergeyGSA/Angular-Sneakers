@@ -6,12 +6,14 @@ import { WrapperComponent } from './components/wrapper/wrapper.component';
 import { HeaderComponent } from '../wrapper/components/header/header.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { SearchComponent } from './components/search/search.component';
+import { SortingComponent } from './components/sorting/sorting.component';
 
 import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
 
 const routes: Routes = [
   {
@@ -25,7 +27,8 @@ const routes: Routes = [
     WrapperComponent,
     HeaderComponent,
     CarouselComponent,
-    SearchComponent
+    SearchComponent,
+    SortingComponent
   ],
   imports: [
     CommonModule,
@@ -34,10 +37,9 @@ const routes: Routes = [
     NgbCarouselModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule,
   ],
   providers: []
 })
 export class WrapperModule { }
-
-// TODO: Add ng-bootstrap and add carousel and etc.
