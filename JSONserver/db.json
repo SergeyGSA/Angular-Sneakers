@@ -69,6 +69,23 @@
       "imgLink": "https://media.newbalance.ua/images/d3/73/6c4783de8bbc58a00eeb79b0ca82.jpg",
       "name": "New Balance 827",
       "price": 149
+    },
+
+
+
+    {
+      "id": "011",
+      "favorite": false,
+      "imgLink": "https://media.newbalance.ua/images/74/89/ecbb7059b194ec2cb1ccd0f05fee.jpg",
+      "name": "New Balance 574 Nubuck",
+      "price": 139
+    },
+    {
+      "id": "012",
+      "favorite": false,
+      "imgLink": "https://media.newbalance.ua/images/6d/68/1b73af5ee07531eafcc186769f07.jpg",
+      "name": "New Balance 373 Essentials",
+      "price": 99
     }
   ]
 }

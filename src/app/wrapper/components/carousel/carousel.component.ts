@@ -17,8 +17,8 @@ export class CarouselComponent implements OnInit {
   constructor(config: NgbCarouselConfig) {
     config.keyboard = true;
     config.pauseOnFocus = false;
-    config.showNavigationArrows = true;
-    config.showNavigationIndicators = true;
+    config.showNavigationArrows = false;
+    config.showNavigationIndicators = false;
   }
 
   ngOnInit(): void {
