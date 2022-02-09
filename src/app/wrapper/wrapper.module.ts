@@ -4,11 +4,11 @@ import { CommonModule } from "@angular/common";
 import { HttpClientModule } from '@angular/common/http';
 
 //   Components
-import { WrapperComponent } from './components/wrapper/wrapper.component';
-import { HeaderComponent } from '../wrapper/components/header/header.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
-import { SearchComponent } from './components/search/search.component';
-import { SortingComponent } from './components/sorting/sorting.component';
+import { WrapperComponent } from 'src/app/wrapper/components/wrapper/wrapper.component';
+import { HeaderComponent } from 'src/app/wrapper/components/header/header.component';
+import { CarouselComponent } from 'src/app/wrapper/components/carousel/carousel.component';
+import { SearchComponent } from 'src/app/wrapper/components/search/search.component';
+import { SortingComponent } from 'src/app/wrapper/components/sorting/sorting.component';
 //   /Components
 
 //   NgBootstrap

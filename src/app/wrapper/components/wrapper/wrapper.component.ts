@@ -10,29 +10,23 @@ import { ISneakersCard } from '../../types/sneakers.interface'
   styleUrls: ['./wrapper.component.scss']
 })
 export class WrapperComponent implements OnInit {
-  sneakers$: Observable<ISneakersCard[]>;
-  addedToCart: boolean;
-  favorite: boolean;
+  public readonly sneakers$: Observable<ISneakersCard[]>;
+  public addedToCart: boolean;
+  public favorite: boolean;
 
-  constructor( private sneakersService: SneakersService ) {
+  constructor( private readonly sneakersService: SneakersService ) {
     this.sneakers$ = this.sneakersService.getSneakers();
     this.addedToCart = false;
     this.favorite = false;
   }
 
-  ngOnInit(): void {
-    this.sneakers$.subscribe(
-      data => {
-        console.log(data);
-      }
-    )
-  }
+  ngOnInit(): void {}
 
-  addingToCart(): boolean {
+  public addingToCart(): boolean {
     return this.addedToCart = !this.addedToCart
   }
 
-  addingToFavorite(): boolean {
+  public addingToFavorite(): boolean {
     return this.favorite = !this.favorite
   }
 }

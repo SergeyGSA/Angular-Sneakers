@@ -1,7 +1,7 @@
 export interface ISneakersCard {
   readonly id: string,
-  favorite: boolean,
-  imgLink: string,
-  name: string,
-  price: number
+  readonly imgLink: string,
+  readonly name: string,
+  readonly price: number,
+  favorite: boolean
 }
