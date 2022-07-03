@@ -22,15 +22,20 @@
         <span class="card-price">{{ sneakers.price }} $</span>
       </mat-card-content>
       <mat-card-actions class="card-btns">
-        <button mat-button (click)="addingToFavorite()" class="card-button">
-          <mat-icon *ngIf="!favorite; else favoriteBlock">
-            favorite_border
+        <button mat-button class="card-button">
+          <mat-icon *ngIf="isFavorite$ | async; else favoriteBlock">
+            favorite
           </mat-icon>
           <ng-template #favoriteBlock>
-            <mat-icon>favorite</mat-icon>
+            <mat-icon>favorite_border</mat-icon>
           </ng-template>
         </button>
-        <button mat-button (click)="addingToCart()" class="card-button">
+
+        <button
+          mat-button
+          (click)="addingToCart(sneakers.id)"
+          class="card-button"
+        >
           <mat-icon *ngIf="!addedToCart; else cartBlock">
             add_shopping_cart
           </mat-icon>

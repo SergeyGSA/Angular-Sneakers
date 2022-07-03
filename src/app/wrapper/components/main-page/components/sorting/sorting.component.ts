@@ -15,7 +15,7 @@ export class SortingComponent implements OnInit {
     {value: 'default', viewValue: 'Default'},
     {value: 'price', viewValue: 'Price'},
     {value: 'name', viewValue: 'Name'},
-  ];
+  ]
 
   constructor() { }
 

@@ -2,87 +2,72 @@
   "sneakers": [
     {
       "id": "001",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/c2/b5/224e9de1d0925f68d958743e75b9.jpg",
       "name": "New Balance 530",
       "price": 119
     },
     {
       "id": "002",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/27/2a/8ba22154d26aa348a2c594759416.jpg",
       "name": "New Balance 1500 SDS",
       "price": 269
     },
     {
       "id": "003",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/92/4b/5bd122de0c6cbd09e711f83a18e9.jpg",
       "name": "New Balance 500",
       "price": 89
     },
     {
       "id": "004",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/9d/20/56989b1c550591e2cdc68573ef26.jpg",
       "name": "New Balance 720 Vintage",
       "price": 99
     },
     {
       "id": "005",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/58/e9/426c36c6f680e3353a38660369c3.jpg",
       "name": "New Balance 237",
       "price": 109
     },
     {
       "id": "006",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/d1/fc/7c6262f38feb53b437bf3718e2f0.jpg",
       "name": "New Balance 996",
       "price": 139
     },
     {
       "id": "007",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/ab/80/f4aac1dff370b20fb8961e59fb71.jpg",
       "name": "New Balance 574 Classic",
       "price": 119
     },
     {
       "id": "008",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/fd/93/b719f609b3348e6a216f0325ca4b.jpg",
       "name": "New Balance 327",
       "price": 119
     },
     {
       "id": "009",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/d2/ce/69deb9ee97d53653171d04cdcf31.jpg",
       "name": "New Balance 670 Made in UK",
       "price": 269
     },
     {
       "id": "010",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/d3/73/6c4783de8bbc58a00eeb79b0ca82.jpg",
       "name": "New Balance 827",
       "price": 149
     },
-
-
-
     {
       "id": "011",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/74/89/ecbb7059b194ec2cb1ccd0f05fee.jpg",
       "name": "New Balance 574 Nubuck",
       "price": 139
     },
     {
       "id": "012",
-      "favorite": false,
       "imgLink": "https://media.newbalance.ua/images/6d/68/1b73af5ee07531eafcc186769f07.jpg",
       "name": "New Balance 373 Essentials",
       "price": 99
